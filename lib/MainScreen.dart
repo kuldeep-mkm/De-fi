@@ -49,6 +49,8 @@ class _MainScreenState extends State<MainScreen> {
                         Padding(
                           padding: const EdgeInsets.all(15),
                           child: Column(
+                            crossAxisAlignment:
+                            CrossAxisAlignment.start,
                             children: [
                               Row(
                                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -442,6 +444,8 @@ class _MainScreenState extends State<MainScreen> {
                                                 const SizedBox(width: 10),
                                                 Flexible(
                                                   child: Column(
+                                                    crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
                                                     children: [
                                                       Row(
                                                         crossAxisAlignment:
